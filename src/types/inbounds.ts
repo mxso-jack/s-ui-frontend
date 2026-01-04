@@ -159,7 +159,7 @@ export interface Tun extends InboundBasics {
   // auto_redirect_input_mark?: string
   // auto_redirect_output_mark?: string
   // route_address?: string[]
-  // route_exclude_address?: string[]
+  route_exclude_address?: string[]
   // include_interface?: string[]
   // exclude_interface?: string[]
   // include_uid?: string[]
